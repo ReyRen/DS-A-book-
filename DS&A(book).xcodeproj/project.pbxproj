@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2393441E1F996BFD004DB600 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2393441D1F996BFD004DB600 /* main.cpp */; };
+		239344261F996CC3004DB600 /* 递归.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239344251F996CC3004DB600 /* 递归.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		2393441A1F996BFD004DB600 /* DS&A(book) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DS&A(book)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2393441D1F996BFD004DB600 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		239344251F996CC3004DB600 /* 递归.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "递归.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		239344111F996BFD004DB600 = {
 			isa = PBXGroup;
 			children = (
+				239344241F996C80004DB600 /* 第一章. 引论 */,
 				2393441C1F996BFD004DB600 /* DS&A(book) */,
 				2393441B1F996BFD004DB600 /* Products */,
 			);
@@ -60,6 +63,14 @@
 				2393441D1F996BFD004DB600 /* main.cpp */,
 			);
 			path = "DS&A(book)";
+			sourceTree = "<group>";
+		};
+		239344241F996C80004DB600 /* 第一章. 引论 */ = {
+			isa = PBXGroup;
+			children = (
+				239344251F996CC3004DB600 /* 递归.cpp */,
+			);
+			path = "第一章. 引论";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2393441E1F996BFD004DB600 /* main.cpp in Sources */,
+				239344261F996CC3004DB600 /* 递归.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
