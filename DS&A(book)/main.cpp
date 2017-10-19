@@ -8,8 +8,10 @@
 
 #include <iostream>
 
+void printOut(int n);
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    printOut(1782);
+
+    
     return 0;
 }
